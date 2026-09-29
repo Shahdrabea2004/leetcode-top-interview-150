@@ -58,7 +58,16 @@ public class Main {
 
     }
 
+    static void removeElement(){
+        int[]res={2};
+        RemoveElement removeElement=new RemoveElement();
+        int ans=removeElement.removeElement(res,3);
+        System.out.println(ans);
+        for (int i = 0; i < ans; i++) {
+            System.out.print(res[i] + " ");
+        }
+    }
     public static void main(String[] args) {
-        removeDuplicates();
+        removeElement();
     }
 }
