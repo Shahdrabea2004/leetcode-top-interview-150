@@ -47,10 +47,10 @@ public class Main {
         }
     }
 
-    static void removeDuplicates(){
-        int[]res={1,2,3};
-        RemoveDuplicates removeDuplicates=new RemoveDuplicates();
-        int ans=removeDuplicates.removeDuplicates(res);
+    static void removeDuplicates() {
+        int[] res = {1, 2, 3};
+        RemoveDuplicates removeDuplicates = new RemoveDuplicates();
+        int ans = removeDuplicates.removeDuplicates(res);
         System.out.println(ans);
         for (int i = 0; i < ans; i++) {
             System.out.print(res[i] + " ");
@@ -58,16 +58,24 @@ public class Main {
 
     }
 
-    static void removeElement(){
-        int[]res={2};
-        RemoveElement removeElement=new RemoveElement();
-        int ans=removeElement.removeElement(res,3);
+    static void removeElement() {
+        int[] res = {2};
+        RemoveElement removeElement = new RemoveElement();
+        int ans = removeElement.removeElement(res, 3);
         System.out.println(ans);
         for (int i = 0; i < ans; i++) {
             System.out.print(res[i] + " ");
         }
     }
+
+    static void majorityElement() {
+        int[] res = {2,2,1,1,1,1,1};
+        MajorityElement majorityElement = new MajorityElement();
+        int ans = majorityElement.majorityElement(res);
+        System.out.println(ans);
+    }
+
     public static void main(String[] args) {
-        removeElement();
+        majorityElement();
     }
 }
