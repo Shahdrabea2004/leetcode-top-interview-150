@@ -86,7 +86,12 @@ public class Main {
         RomanToInteger romanToInteger=new RomanToInteger();
         System.out.println(romanToInteger.romanToInt("MCDLXXVI"));
     }
+
+    static void lengthOfLastWord(){
+        LengthOfLastWord lengthOfLastWord =new LengthOfLastWord();
+        System.out.println(lengthOfLastWord.lengthOfLastWord("Hello World"));
+    }
     public static void main(String[] args) {
-        romanToInteger();
+        lengthOfLastWord();
     }
 }
