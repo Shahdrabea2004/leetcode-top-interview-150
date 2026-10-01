@@ -91,7 +91,13 @@ public class Main {
         LengthOfLastWord lengthOfLastWord =new LengthOfLastWord();
         System.out.println(lengthOfLastWord.lengthOfLastWord("Hello World"));
     }
+
+    static void longestCommonPrefix(){
+        String[] strs = {"aaa","aa","aaa"};
+        LongestCommonPrefix longestCommonPrefix=new LongestCommonPrefix();
+        System.out.println(longestCommonPrefix.longestCommonPrefix(strs));
+    }
     public static void main(String[] args) {
-        lengthOfLastWord();
+        longestCommonPrefix();
     }
 }

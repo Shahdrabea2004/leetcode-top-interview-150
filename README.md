@@ -23,6 +23,7 @@ The goal is to improve:
 | --- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                         | [TwoSum.java](src/TwoSum.java)                     |
 | 13  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                       | [RomanToInteger.java](src/RomanToInteger.java)     |
+| 14  | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)                             | [LongestCommonPrefix.java](src/LongestCommonPrefix.java) |
 | 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [RemoveDuplicates.java](src/RemoveDuplicates.java) |
 | 27  | [Remove Element](https://leetcode.com/problems/remove-element/)                                           | [RemoveElement.java](src/RemoveElement.java)       |
 | 58  | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                 | [LengthOfLastWord.java](src/LengthOfLastWord.java) |
