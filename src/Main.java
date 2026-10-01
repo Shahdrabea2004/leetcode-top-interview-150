@@ -75,7 +75,18 @@ public class Main {
         System.out.println(ans);
     }
 
+    static void bestTimeToBuyAndSellStock(){
+        int[] res = {7,1,5,3,6,4};
+        BestTimeToBuyAndSellStock bestTimeToBuyAndSellStock=new BestTimeToBuyAndSellStock();
+        int ans=bestTimeToBuyAndSellStock.maxProfit(res);
+        System.out.println(ans);
+    }
+
+    static void  romanToInteger(){
+        RomanToInteger romanToInteger=new RomanToInteger();
+        System.out.println(romanToInteger.romanToInt("MCDLXXVI"));
+    }
     public static void main(String[] args) {
-        majorityElement();
+        romanToInteger();
     }
 }
