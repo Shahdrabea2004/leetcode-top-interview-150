@@ -22,6 +22,7 @@ The goal is to improve:
 | #   | Problem                                                                                                   | Solution                                           |
 | --- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/)                                                         | [TwoSum.java](src/TwoSum.java)                     |
+| 13  | [Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                                       | [RomanToInteger.java](src/RomanToInteger.java)     |
 | 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [RemoveDuplicates.java](src/RemoveDuplicates.java) |
 | 27  | [Remove Element](https://leetcode.com/problems/remove-element/)                                           | [RemoveElement.java](src/RemoveElement.java)       |
 | 88  | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                                   | [MergeSortedArray.java](src/MergeSortedArray.java) |
