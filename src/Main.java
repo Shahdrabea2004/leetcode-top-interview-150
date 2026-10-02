@@ -97,7 +97,12 @@ public class Main {
         LongestCommonPrefix longestCommonPrefix=new LongestCommonPrefix();
         System.out.println(longestCommonPrefix.longestCommonPrefix(strs));
     }
+
+    static void findIndexOfFirstOccurrence(){
+        FindIndexOfFirstOccurrence findIndexOfFirstOccurrence=new FindIndexOfFirstOccurrence();
+        System.out.println(findIndexOfFirstOccurrence.strStr("abc","c"));
+    }
     public static void main(String[] args) {
-        longestCommonPrefix();
+        findIndexOfFirstOccurrence();
     }
 }
