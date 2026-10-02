@@ -102,7 +102,12 @@ public class Main {
         FindIndexOfFirstOccurrence findIndexOfFirstOccurrence=new FindIndexOfFirstOccurrence();
         System.out.println(findIndexOfFirstOccurrence.strStr("abc","c"));
     }
+
+    static void  validPalindrome(){
+        ValidPalindrome validPalindrome=new ValidPalindrome();
+        System.out.println(validPalindrome.isPalindrome("A man, a plan, a canal: Panama"));
+    }
     public static void main(String[] args) {
-        findIndexOfFirstOccurrence();
+        validPalindrome();
     }
 }

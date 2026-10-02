@@ -30,6 +30,7 @@ The goal is to improve:
 | 58  | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                 | [LengthOfLastWord.java](src/LengthOfLastWord.java) |
 | 88  | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                                   | [MergeSortedArray.java](src/MergeSortedArray.java) |
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)         | [BestTimeToBuyAndSellStock.java](src/BestTimeToBuyAndSellStock.java) |
+| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [ValidPalindrome.java](src/ValidPalindrome.java) |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/)                                       | [MajorityElement.java](src/MajorityElement.java)   |
 
 ## 🎯 Progress
