@@ -32,6 +32,7 @@ The goal is to improve:
 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)         | [BestTimeToBuyAndSellStock.java](src/BestTimeToBuyAndSellStock.java) |
 | 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [ValidPalindrome.java](src/ValidPalindrome.java) |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/)                                       | [MajorityElement.java](src/MajorityElement.java)   |
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | [IsSubsequence.java](src/IsSubsequence.java) |
 
 ## 🎯 Progress
 

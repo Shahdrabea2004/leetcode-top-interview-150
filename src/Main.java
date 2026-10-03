@@ -103,11 +103,16 @@ public class Main {
         System.out.println(findIndexOfFirstOccurrence.strStr("abc","c"));
     }
 
-    static void  validPalindrome(){
+    static void validPalindrome(){
         ValidPalindrome validPalindrome=new ValidPalindrome();
         System.out.println(validPalindrome.isPalindrome("A man, a plan, a canal: Panama"));
     }
+
+    static void isSubsequence(){
+        IsSubsequence isSubsequence=new IsSubsequence();
+        System.out.println(isSubsequence.isSubsequence("axc","ahbgdc"));
+    }
     public static void main(String[] args) {
-        validPalindrome();
+        isSubsequence();
     }
 }
