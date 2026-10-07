@@ -1,8 +1,8 @@
 import java.util.HashMap;
 /**
- * LeetCode 205 - Isomorphic Strings
+ * LeetCode 290 - Word Pattern
  * Problem:
- * https://leetcode.com/problems/isomorphic-strings/
+ * https://leetcode.com/problems/word-pattern/
  */
 public class IsomorphicStrings {
     public boolean isIsomorphic(String s, String t) {
