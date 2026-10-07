@@ -91,9 +91,9 @@ Difficulty: 🟢 Easy | 🟡 Medium | 🔴 Hard
 ### Hashmap
 
 | #   | Problem | Difficulty | Status | Solution |
-| --- | ------- | ---------- | ------ | -------- |
+| --- | ------- | ---------- | ------ | ------- |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | 🟢 Easy | ✅ Done | [RansomNote.java](src/RansomNote.java) |
-| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | ⏳ Wait | — |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | ✅ Done |  [IsomorphicStrings.java](src/IsomorphicStrings.java) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | 🟢 Easy | ⏳ Wait | — |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy | ⏳ Wait | — |
 | 49  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | ⏳ Wait | — |

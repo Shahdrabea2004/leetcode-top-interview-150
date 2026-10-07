@@ -117,7 +117,13 @@ public class Main {
         RansomNote ransomNote=new RansomNote();
         System.out.println(ransomNote.canConstruct("aaac","aabca"));
     }
+
+    static void isomorphicStrings(){
+        IsomorphicStrings isomorphicStrings=new IsomorphicStrings();
+        System.out.println(isomorphicStrings.isIsomorphic("paper","title"));
+    }
+
     public static void main(String[] args) {
-        ransomNote();
+        isomorphicStrings();
     }
 }
