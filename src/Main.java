@@ -128,7 +128,12 @@ public class Main {
         System.out.println(wordPattern.wordPattern("abba", "dog cat cat dog"));
     }
 
+    static void validAnagram(){
+        ValidAnagram validAnagram=new ValidAnagram();
+        System.out.println(validAnagram.isAnagram("rat","car"));
+    }
+
     public static void main(String[] args) {
-        wordPattern();
+        validAnagram();
     }
 }

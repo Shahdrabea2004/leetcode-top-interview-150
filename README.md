@@ -19,14 +19,11 @@ The goal is to improve:
 
 ## 🎯 Progress
 
-![Progress](https://img.shields.io/badge/Progress-10%25-brightgreen)
-![Solved](https://img.shields.io/badge/Solved-15%2F150-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-10.7%25-brightgreen)
+![Solved](https://img.shields.io/badge/Solved-16%2F150-brightgreen)
 
-🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **10%** (15 / 150)
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **10.7%** (16 / 150)
 
-✅ Done | ⏳ Wait
-
-Difficulty: 🟢 Easy | 🟡 Medium | 🔴 Hard
 ✅ Done | ⏳ Wait
 
 Difficulty: 🟢 Easy | 🟡 Medium | 🔴 Hard
@@ -94,11 +91,11 @@ Difficulty: 🟢 Easy | 🟡 Medium | 🔴 Hard
 ### Hashmap
 
 | #   | Problem | Difficulty | Status | Solution |
-| --- | ------- | ---------- |--------| -------- |
+| --- | ------- | ---------- |--| -------- |
 | 383 | [Ransom Note](https://leetcode.com/problems/ransom-note/) | 🟢 Easy | ✅ Done | [RansomNote.java](src/RansomNote.java) |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | 🟢 Easy | ✅ Done | [IsomorphicStrings.java](src/IsomorphicStrings.java) |
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/) | 🟢 Easy | ✅ Done | [WordPattern.java](src/WordPattern.java) |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy | ⏳ Wait | [ValidAnagram.java](src/ValidAnagram.java) |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy | ✅ Done | [ValidAnagram.java](src/ValidAnagram.java) |
 | 49  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | ⏳ Wait | [GroupAnagrams.java](src/GroupAnagrams.java) |
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | ✅ Done | [TwoSum.java](src/TwoSum.java) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | 🟢 Easy | ⏳ Wait | [HappyNumber.java](src/HappyNumber.java) |
