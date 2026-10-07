@@ -112,7 +112,12 @@ public class Main {
         IsSubsequence isSubsequence=new IsSubsequence();
         System.out.println(isSubsequence.isSubsequence("axc","ahbgdc"));
     }
+
+    static void  ransomNote(){
+        RansomNote ransomNote=new RansomNote();
+        System.out.println(ransomNote.canConstruct("aaac","aabca"));
+    }
     public static void main(String[] args) {
-        isSubsequence();
+        ransomNote();
     }
 }
