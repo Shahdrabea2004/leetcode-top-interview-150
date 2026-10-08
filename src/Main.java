@@ -132,8 +132,11 @@ public class Main {
         ValidAnagram validAnagram=new ValidAnagram();
         System.out.println(validAnagram.isAnagram("rat","car"));
     }
-
+    static void happyNumber(){
+        HappyNumber happyNumber=new HappyNumber();
+        System.out.println(happyNumber.isHappy(1));
+    }
     public static void main(String[] args) {
-        validAnagram();
+        happyNumber();
     }
 }

@@ -98,7 +98,7 @@ Difficulty: 🟢 Easy | 🟡 Medium | 🔴 Hard
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 🟢 Easy | ✅ Done | [ValidAnagram.java](src/ValidAnagram.java) |
 | 49  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | ⏳ Wait | [GroupAnagrams.java](src/GroupAnagrams.java) |
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | ✅ Done | [TwoSum.java](src/TwoSum.java) |
-| 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | 🟢 Easy | ⏳ Wait | [HappyNumber.java](src/HappyNumber.java) |
+| 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | 🟢 Easy | ✅ Done | [HappyNumber.java](src/HappyNumber.java) |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 Easy | ⏳ Wait | [ContainsDuplicateII.java](src/ContainsDuplicateII.java) |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | ⏳ Wait | [LongestConsecutiveSequence.java](src/LongestConsecutiveSequence.java) |
 
