@@ -139,13 +139,19 @@ public class Main {
     }
 
     static void containsDuplicateII() {
-        int[] res = {1,2,3,1,2,3};
-        ContainsDuplicateII containsDuplicateII=new ContainsDuplicateII();
-        System.out.println(containsDuplicateII.containsNearbyDuplicate(res,2));
-        System.out.println(containsDuplicateII.containsNearbyDuplicateMoreOptimize(res,2));
+        int[] res = {1, 2, 3, 1, 2, 3};
+        ContainsDuplicateII containsDuplicateII = new ContainsDuplicateII();
+        System.out.println(containsDuplicateII.containsNearbyDuplicate(res, 2));
+        System.out.println(containsDuplicateII.containsNearbyDuplicateMoreOptimize(res, 2));
+    }
+
+    static void summaryRanges() {
+        int[] res = {1};
+        SummaryRanges summaryRanges = new SummaryRanges();
+        System.out.println(summaryRanges.summaryRanges(res));
     }
 
     public static void main(String[] args) {
-        containsDuplicateII();
+        summaryRanges();
     }
 }

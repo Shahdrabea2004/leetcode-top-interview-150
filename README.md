@@ -106,7 +106,7 @@ Difficulty: 🟢 Easy | 🟡 Medium | 🔴 Hard
 
 | #   | Problem | Difficulty | Status | Solution |
 | --- | ------- | ---------- | ------ | -------- |
-| 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | 🟢 Easy | ⏳ Wait | [SummaryRanges.java](src/SummaryRanges.java) |
+| 228 | [Summary Ranges](https://leetcode.com/problems/summary-ranges/) | 🟢 Easy | ✅ Done | [SummaryRanges.java](src/SummaryRanges.java) |
 | 56  | [Merge Intervals](https://leetcode.com/problems/merge-intervals/) | 🟡 Medium | ⏳ Wait | [MergeIntervals.java](src/MergeIntervals.java) |
 | 57  | [Insert Interval](https://leetcode.com/problems/insert-interval/) | 🟡 Medium | ⏳ Wait | [InsertInterval.java](src/InsertInterval.java) |
 | 452 | [Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | 🟡 Medium | ⏳ Wait | [MinimumNumberOfArrowsToBurstBalloons.java](src/MinimumNumberOfArrowsToBurstBalloons.java) |
