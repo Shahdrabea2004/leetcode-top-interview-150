@@ -19,10 +19,10 @@ The goal is to improve:
 
 ## 🎯 Progress
 
-![Progress](https://img.shields.io/badge/Progress-10.7%25-brightgreen)
-![Solved](https://img.shields.io/badge/Solved-16%2F150-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-12%25-brightgreen)
+![Solved](https://img.shields.io/badge/Solved-18%2F150-brightgreen)
 
-🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **10.7%** (16 / 150)
+🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **12%** (18 / 150)
 
 ✅ Done | ⏳ Wait
 
@@ -99,7 +99,7 @@ Difficulty: 🟢 Easy | 🟡 Medium | 🔴 Hard
 | 49  | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | ⏳ Wait | [GroupAnagrams.java](src/GroupAnagrams.java) |
 | 1   | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | ✅ Done | [TwoSum.java](src/TwoSum.java) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) | 🟢 Easy | ✅ Done | [HappyNumber.java](src/HappyNumber.java) |
-| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 Easy | ⏳ Wait | [ContainsDuplicateII.java](src/ContainsDuplicateII.java) |
+| 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) | 🟢 Easy | ✅ Done | [ContainsDuplicateII.java](src/ContainsDuplicateII.java) |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | ⏳ Wait | [LongestConsecutiveSequence.java](src/LongestConsecutiveSequence.java) |
 
 ### Intervals

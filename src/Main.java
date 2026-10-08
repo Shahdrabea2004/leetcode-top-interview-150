@@ -128,15 +128,24 @@ public class Main {
         System.out.println(wordPattern.wordPattern("abba", "dog cat cat dog"));
     }
 
-    static void validAnagram(){
-        ValidAnagram validAnagram=new ValidAnagram();
-        System.out.println(validAnagram.isAnagram("rat","car"));
+    static void validAnagram() {
+        ValidAnagram validAnagram = new ValidAnagram();
+        System.out.println(validAnagram.isAnagram("rat", "car"));
     }
-    static void happyNumber(){
-        HappyNumber happyNumber=new HappyNumber();
+
+    static void happyNumber() {
+        HappyNumber happyNumber = new HappyNumber();
         System.out.println(happyNumber.isHappy(1));
     }
+
+    static void containsDuplicateII() {
+        int[] res = {1,2,3,1,2,3};
+        ContainsDuplicateII containsDuplicateII=new ContainsDuplicateII();
+        System.out.println(containsDuplicateII.containsNearbyDuplicate(res,2));
+        System.out.println(containsDuplicateII.containsNearbyDuplicateMoreOptimize(res,2));
+    }
+
     public static void main(String[] args) {
-        happyNumber();
+        containsDuplicateII();
     }
 }
