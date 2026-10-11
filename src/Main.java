@@ -151,7 +151,12 @@ public class Main {
         System.out.println(summaryRanges.summaryRanges(res));
     }
 
+    static void validParentheses() {
+        ValidParentheses validParentheses=new ValidParentheses();
+        System.out.println(validParentheses.isValid("(]"));
+    }
+
     public static void main(String[] args) {
-        summaryRanges();
+        validParentheses();
     }
 }
