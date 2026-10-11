@@ -162,7 +162,12 @@ public class Main {
         System.out.println(searchInsertPosition.searchInsert(nums,1));
     }
 
+    static void palindromeNumber(){
+        PalindromeNumber palindromeNumber=new PalindromeNumber();
+        System.out.println(palindromeNumber.isPalindrome(121));
+    }
+
     public static void main(String[] args) {
-        searchInsertPosition();
+        palindromeNumber();
     }
 }

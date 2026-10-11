@@ -263,8 +263,8 @@ Difficulty: 🟢 Easy | 🟡 Medium | 🔴 Hard
 ### Math
 
 | #   | Problem | Difficulty | Status | Solution |
-| --- | ------- | ---------- | ------ | -------- |
-| 9   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | ⏳ Wait | [PalindromeNumber.java](src/PalindromeNumber.java) |
+| --- | ------- | ---------- |--------| -------- |
+| 9   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | ✅ Done | [PalindromeNumber.java](src/PalindromeNumber.java) |
 | 66  | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | ⏳ Wait | [PlusOne.java](src/PlusOne.java) |
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | 🟡 Medium | ⏳ Wait | [FactorialTrailingZeroes.java](src/FactorialTrailingZeroes.java) |
 | 69  | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | ⏳ Wait | [Sqrt.java](src/Sqrt.java) |
