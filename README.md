@@ -19,10 +19,10 @@ The goal is to improve:
 
 ## 🎯 Progress
 
-![Progress](https://img.shields.io/badge/Progress-12%25-brightgreen)
-![Solved](https://img.shields.io/badge/Solved-18%2F150-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-14%25-brightgreen)
+![Solved](https://img.shields.io/badge/Solved-21%2F150-brightgreen)
 
-🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **12%** (18 / 150)
+🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **14%** (21 / 150)
 
 ✅ Done | ⏳ Wait
 
@@ -114,8 +114,8 @@ Difficulty: 🟢 Easy | 🟡 Medium | 🔴 Hard
 ### Stack
 
 | #   | Problem | Difficulty | Status | Solution |
-| --- | ------- | ---------- | ------ | -------- |
-| 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | ⏳ Wait | [ValidParentheses.java](src/ValidParentheses.java) |
+| --- | ------- | ---------- | -- | -------- |
+| 20  | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | ✅ Done | [ValidParentheses.java](src/ValidParentheses.java) |
 | 71  | [Simplify Path](https://leetcode.com/problems/simplify-path/) | 🟡 Medium | ⏳ Wait | [SimplifyPath.java](src/SimplifyPath.java) |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/) | 🟡 Medium | ⏳ Wait | [MinStack.java](src/MinStack.java) |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | ⏳ Wait | [EvaluateReversePolishNotation.java](src/EvaluateReversePolishNotation.java) |
@@ -231,8 +231,8 @@ Difficulty: 🟢 Easy | 🟡 Medium | 🔴 Hard
 ### Binary Search
 
 | #   | Problem | Difficulty | Status | Solution |
-| --- | ------- | ---------- | ------ | -------- |
-| 35  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | ⏳ Wait | [SearchInsertPosition.java](src/SearchInsertPosition.java) |
+| --- | ------- | ---------- | -- | -------- |
+| 35  | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | 🟢 Easy | ✅ Done | [SearchInsertPosition.java](src/SearchInsertPosition.java) |
 | 74  | [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) | 🟡 Medium | ⏳ Wait | [SearchA2DMatrix.java](src/SearchA2DMatrix.java) |
 | 162 | [Find Peak Element](https://leetcode.com/problems/find-peak-element/) | 🟡 Medium | ⏳ Wait | [FindPeakElement.java](src/FindPeakElement.java) |
 | 33  | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium | ⏳ Wait | [SearchInRotatedSortedArray.java](src/SearchInRotatedSortedArray.java) |

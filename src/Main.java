@@ -156,7 +156,13 @@ public class Main {
         System.out.println(validParentheses.isValid("(]"));
     }
 
+    static void searchInsertPosition(){
+        int[]nums={1,3,5};
+        SearchInsertPosition searchInsertPosition=new SearchInsertPosition();
+        System.out.println(searchInsertPosition.searchInsert(nums,1));
+    }
+
     public static void main(String[] args) {
-        validParentheses();
+        searchInsertPosition();
     }
 }

@@ -1,9 +1,8 @@
 import java.util.Stack;
-
 /**
  * LeetCode 20 - Valid Parentheses
  * Problem:
- * https://leetcode.com/problems/valid-parentheses
+ * https://leetcode.com/problems/valid-parentheses/
  *
  */
 public class ValidParentheses {
