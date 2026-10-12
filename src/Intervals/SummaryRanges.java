@@ -1,10 +1,12 @@
+package Intervals;
+
 import java.util.ArrayList;
 import java.util.List;
+
 /**
  * LeetCode 228 - Summary Ranges
  * Problem:
  * https://leetcode.com/problems/summary-ranges/
- *
  */
 public class SummaryRanges {
     public List<String> summaryRanges(int[] nums) {
@@ -42,5 +44,11 @@ public class SummaryRanges {
 
         }
         return res;
+    }
+
+    public static void main(String[] args) {
+        int[] res = {1};
+        SummaryRanges summaryRanges = new SummaryRanges();
+        System.out.println(summaryRanges.summaryRanges(res));
     }
 }

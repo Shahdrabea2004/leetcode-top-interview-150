@@ -1,4 +1,7 @@
+package Hashmap;
+
 import java.util.HashMap;
+
 /**
  * LeetCode 290 - Word Pattern
  * Problem:
@@ -14,7 +17,7 @@ public class IsomorphicStrings {
                     return false;
                 }
             } else {
-                if(mp.containsValue(t.charAt(i))){
+                if (mp.containsValue(t.charAt(i))) {
                     return false;
                 }
                 mp.put(s.charAt(i), t.charAt(i));
@@ -22,5 +25,10 @@ public class IsomorphicStrings {
         }
 
         return true;
+    }
+
+    public static void main(String[] args) {
+        IsomorphicStrings isomorphicStrings = new IsomorphicStrings();
+        System.out.println(isomorphicStrings.isIsomorphic("paper", "title"));
     }
 }

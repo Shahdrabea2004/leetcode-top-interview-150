@@ -1,3 +1,5 @@
+package Math;
+
 /**
  * LeetCode 9 - Palindrome Number
  * Problem:
@@ -13,5 +15,10 @@ public class PalindromeNumber {
             x /= 10;
         }
         return (y == reverse);
+    }
+
+    public static void main(String[] args) {
+        PalindromeNumber palindromeNumber = new PalindromeNumber();
+        System.out.println(palindromeNumber.isPalindrome(121));
     }
 }

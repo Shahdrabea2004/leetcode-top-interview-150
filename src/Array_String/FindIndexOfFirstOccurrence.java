@@ -1,3 +1,5 @@
+package Array_String;
+
 /**
  * LeetCode 28 - Find the Index of the First Occurrence in a String
  * Problem:
@@ -21,5 +23,10 @@ public class FindIndexOfFirstOccurrence {
             }
         }
         return ans;
+    }
+
+    public static void main(String[] args) {
+        FindIndexOfFirstOccurrence findIndexOfFirstOccurrence = new FindIndexOfFirstOccurrence();
+        System.out.println(findIndexOfFirstOccurrence.strStr("abc", "c"));
     }
 }

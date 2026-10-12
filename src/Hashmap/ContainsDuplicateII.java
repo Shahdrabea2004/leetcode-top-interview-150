@@ -1,6 +1,9 @@
+package Hashmap;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
 /**
  * LeetCode 219 - Contains Duplicate II
  * Problem:
@@ -44,5 +47,12 @@ public class ContainsDuplicateII {
         }
 
         return false;
+    }
+
+    public static void main(String[] args) {
+        int[] res = {1, 2, 3, 1, 2, 3};
+        ContainsDuplicateII containsDuplicateII = new ContainsDuplicateII();
+        System.out.println(containsDuplicateII.containsNearbyDuplicate(res, 2));
+        System.out.println(containsDuplicateII.containsNearbyDuplicateMoreOptimize(res, 2));
     }
 }

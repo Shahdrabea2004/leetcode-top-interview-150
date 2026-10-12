@@ -1,3 +1,5 @@
+package Binary_Search;
+
 /**
  * LeetCode 35 - Search Insert Position
  * Problem:
@@ -23,5 +25,11 @@ public class SearchInsertPosition {
         }
 
         return index;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1, 3, 5};
+        SearchInsertPosition searchInsertPosition = new SearchInsertPosition();
+        System.out.println(searchInsertPosition.searchInsert(nums, 1));
     }
 }

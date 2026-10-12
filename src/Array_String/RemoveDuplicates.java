@@ -1,3 +1,4 @@
+package Array_String;
 
 /**
  * LeetCode 26 - Remove Duplicates from Sorted Array
@@ -23,5 +24,15 @@ public class RemoveDuplicates {
 
         return cnt;
 
+    }
+
+    public static void main(String[] args) {
+        int[] res = {1, 2, 3};
+        RemoveDuplicates removeDuplicates = new RemoveDuplicates();
+        int ans = removeDuplicates.removeDuplicates(res);
+        System.out.println(ans);
+        for (int i = 0; i < ans; i++) {
+            System.out.print(res[i] + " ");
+        }
     }
 }

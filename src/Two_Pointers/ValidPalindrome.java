@@ -1,3 +1,5 @@
+package Two_Pointers;
+
 /**
  * LeetCode 125 - Valid Palindrome
  * Problem:
@@ -12,11 +14,16 @@ public class ValidPalindrome {
             if (Character.isLetterOrDigit(ch1)) {
                 str1 += ch1;
             }
-            if(Character.isLetterOrDigit(ch2)){
+            if (Character.isLetterOrDigit(ch2)) {
                 str2 += ch2;
             }
         }
 
         return ((str1.toLowerCase().equals(str2.toLowerCase())) ? true : false);
+    }
+
+    public static void main(String[] args) {
+        ValidPalindrome validPalindrome = new ValidPalindrome();
+        System.out.println(validPalindrome.isPalindrome("A man, a plan, a canal: Panama"));
     }
 }

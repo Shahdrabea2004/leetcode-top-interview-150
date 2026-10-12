@@ -1,3 +1,5 @@
+package Two_Pointers;
+
 /**
  * LeetCode 392 - Is Subsequence
  * Problem:
@@ -22,5 +24,10 @@ public class IsSubsequence {
         }
 
         return true;
+    }
+
+    public static void main(String[] args) {
+        IsSubsequence isSubsequence = new IsSubsequence();
+        System.out.println(isSubsequence.isSubsequence("axc", "ahbgdc"));
     }
 }

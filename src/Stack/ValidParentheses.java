@@ -1,9 +1,11 @@
+package Stack;
+
 import java.util.Stack;
+
 /**
  * LeetCode 20 - Valid Parentheses
  * Problem:
  * https://leetcode.com/problems/valid-parentheses/
- *
  */
 public class ValidParentheses {
     public boolean isValid(String s) {
@@ -22,5 +24,10 @@ public class ValidParentheses {
             }
         }
         return (st.empty());
+    }
+
+    public static void main(String[] args) {
+        ValidParentheses validParentheses = new ValidParentheses();
+        System.out.println(validParentheses.isValid("(]"));
     }
 }

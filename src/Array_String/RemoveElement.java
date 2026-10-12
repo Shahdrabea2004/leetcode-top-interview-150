@@ -1,3 +1,5 @@
+package Array_String;
+
 /**
  * LeetCode 27 - Remove Element
  * Problem:
@@ -36,5 +38,15 @@ public class RemoveElement {
         }
 
         return cnt;
+    }
+
+    public static void main(String[] args) {
+        int[] res = {2};
+        RemoveElement removeElement = new RemoveElement();
+        int ans = removeElement.removeElement(res, 3);
+        System.out.println(ans);
+        for (int i = 0; i < ans; i++) {
+            System.out.print(res[i] + " ");
+        }
     }
 }

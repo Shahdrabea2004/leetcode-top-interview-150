@@ -1,3 +1,5 @@
+package Hashmap;
+
 import java.util.HashMap;
 
 public class WordPattern {
@@ -20,5 +22,10 @@ public class WordPattern {
             }
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        WordPattern wordPattern = new WordPattern();
+        System.out.println(wordPattern.wordPattern("abba", "dog cat cat dog"));
     }
 }

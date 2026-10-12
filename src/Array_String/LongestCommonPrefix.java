@@ -1,3 +1,5 @@
+package Array_String;
+
 /**
  * LeetCode 14 - Longest Common Prefix
  * Problem:
@@ -24,5 +26,11 @@ public class LongestCommonPrefix {
         }
 
         return ans;
+    }
+
+    public static void main(String[] args) {
+        String[] strs = {"aaa", "aa", "aaa"};
+        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+        System.out.println(longestCommonPrefix.longestCommonPrefix(strs));
     }
 }

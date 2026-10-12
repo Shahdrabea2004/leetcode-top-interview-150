@@ -1,3 +1,5 @@
+package Array_String;
+
 /**
  * LeetCode 121 - Best Time to Buy and Sell Stock
  * Problem:
@@ -21,5 +23,12 @@ public class BestTimeToBuyAndSellStock {
 
         if (mxDiff < 0) return 0;
         return mxDiff;
+    }
+
+    public static void main(String[] args) {
+        int[] res = {7, 1, 5, 3, 6, 4};
+        BestTimeToBuyAndSellStock bestTimeToBuyAndSellStock = new BestTimeToBuyAndSellStock();
+        int ans = bestTimeToBuyAndSellStock.maxProfit(res);
+        System.out.println(ans);
     }
 }

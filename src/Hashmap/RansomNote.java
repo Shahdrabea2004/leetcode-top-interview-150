@@ -1,5 +1,8 @@
+package Hashmap;
+
 import java.util.HashMap;
 import java.util.Map;
+
 /**
  * LeetCode 383 - Ransom Note
  * Problem:
@@ -13,12 +16,17 @@ public class RansomNote {
         }
         int cnt = 0;
         for (Character ch : magazine.toCharArray()) {
-            if (mp.getOrDefault(ch,0) > 0) {
+            if (mp.getOrDefault(ch, 0) > 0) {
                 cnt++;
                 mp.put(ch, mp.get(ch) - 1);
             }
         }
 
         return cnt >= ransomNote.length();
+    }
+
+    public static void main(String[] args) {
+        RansomNote ransomNote = new RansomNote();
+        System.out.println(ransomNote.canConstruct("aaac", "aabca"));
     }
 }

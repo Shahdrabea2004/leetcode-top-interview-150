@@ -1,6 +1,9 @@
+package Array_String;
+
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+
 /**
  * LeetCode 169 - Majority Element
  * Problem:
@@ -15,5 +18,12 @@ public class MajorityElement {
         }
         int mx = Collections.max(mp.entrySet(), Map.Entry.comparingByValue()).getKey();
         return mx;
+    }
+
+    public static void main(String[] args) {
+        int[] res = {2, 2, 1, 1, 1, 1, 1};
+        MajorityElement majorityElement = new MajorityElement();
+        int ans = majorityElement.majorityElement(res);
+        System.out.println(ans);
     }
 }

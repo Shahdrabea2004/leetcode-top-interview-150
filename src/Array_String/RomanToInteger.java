@@ -1,3 +1,5 @@
+package Array_String;
+
 import java.util.HashMap;
 
 /**
@@ -36,5 +38,10 @@ public class RomanToInteger {
         }
         return res;
 
+    }
+
+    public static void main(String[] args) {
+        RomanToInteger romanToInteger = new RomanToInteger();
+        System.out.println(romanToInteger.romanToInt("MCDLXXVI"));
     }
 }
