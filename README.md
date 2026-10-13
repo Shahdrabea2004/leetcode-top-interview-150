@@ -19,10 +19,10 @@ The goal is to improve:
 
 ## 🎯 Progress
 
-![Progress](https://img.shields.io/badge/Progress-14%25-brightgreen)
-![Solved](https://img.shields.io/badge/Solved-21%2F150-brightgreen)
+![Progress](https://img.shields.io/badge/Progress-16%25-brightgreen)
+![Solved](https://img.shields.io/badge/Solved-24%2F150-brightgreen)
 
-🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **14%** (21 / 150)
+🟩🟩🟩⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜ **16%** (24 / 150)
 
 ✅ Done | ⏳ Wait
 
@@ -260,14 +260,14 @@ Difficulty: 🟢 Easy | 🟡 Medium | 🔴 Hard
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | 🟡 Medium | ⏳ Wait | [SingleNumberII.java](src/Bit_Manipulation/SingleNumberII.java) |
 | 201 | [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) | 🟡 Medium | ⏳ Wait | [BitwiseANDOfNumbersRange.java](src/Bit_Manipulation/BitwiseANDOfNumbersRange.java) |
 
-### Math: (1/6)
+### Math: (3/6)
 
 | #   | Problem | Difficulty | Status | Solution |
-| --- | ------- | ---------- | ------ | -------- |
+| --- | ------- | ---------- | -- | -------- |
 | 9   | [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | 🟢 Easy | ✅ Done | [PalindromeNumber.java](src/Math/PalindromeNumber.java) |
-| 66  | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | ⏳ Wait | [PlusOne.java](src/Math/PlusOne.java) |
+| 66  | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | ✅ Done | [PlusOne.java](src/Math/PlusOne.java) |
 | 172 | [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/) | 🟡 Medium | ⏳ Wait | [FactorialTrailingZeroes.java](src/Math/FactorialTrailingZeroes.java) |
-| 69  | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | ⏳ Wait | [Sqrt.java](src/Math/Sqrt.java) |
+| 69  | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | 🟢 Easy | ✅ Done | [Sqrt.java](src/Math/Sqrt.java) |
 | 50  | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | 🟡 Medium | ⏳ Wait | [Pow.java](src/Math/Pow.java) |
 | 149 | [Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/) | 🔴 Hard | ⏳ Wait | [MaxPointsOnALine.java](src/Math/MaxPointsOnALine.java) |
 
